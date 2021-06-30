@@ -1,0 +1,21 @@
+.main {
+    margin: auto;
+    width: 50%;
+    padding-top: 30vh;
+}
+
+#logo {
+    left: 40px;
+    position: relative;
+}
+
+input {
+    width: 90%;
+}
+
+.button {
+    width: 49%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
