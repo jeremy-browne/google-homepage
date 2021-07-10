@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
-        <div class="main">
+        <div id="nav">
+            <div id="top-left">
+                <a class="toplink">About</a>
+                <a class="toplink">Store</a>
+            </div>
+            <a class="toplink">Gmail</a>
+            <a class="toplink">Images</a>
+            <a class="topimage"></a>
+        </div>
+        <div id="middle">
             <div id="logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <div class="searchbar">
-                <input type="text">
+            <div id="searchbar-container">
+                <div id=searchicon>
+                    <i class="material-icons">search</i>
+                </div>
+                <input id="searchbar"type="text">
+                <div id=micicon>
+                    <i class="material-icons">mic</i>
+                </div>
             </div>
-            <div class="buttons">
-                <button class="button" id="button1">Google Search</button>
-                <button class="button" id="button2">I'm Feeling Lucky</button>
+            <div id="buttons">
+                <div class="button">
+                    Google Search
+                </div>
+                <div class="button">
+                    I'm Feeling Lucky
+                </div>
             </div>
         </div>
-
+        <div id="footer">
+            <div id="footer-top-row">
+                <a class="buttomlink">Australia</a>
+            </div>
+            <div id="footer-bottom-row">
+                <div id="footer-bottom-row-left">
+                    <a class="buttomlink">Advertising</a>
+                    <a class="buttomlink">Business</a>
+                    <a class="buttomlink">How Search Works</a>
+                </div>
+                <div id="footer-bottom-row-right">
+                    <a class="buttomlink">Privacy</a>
+                    <a class="buttomlink">Terms</a>
+                    <a class="buttomlink">Settings</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
